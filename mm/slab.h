@@ -348,9 +348,9 @@ static inline struct kmem_cache *cache_from_obj(struct kmem_cache *s, void *x)
 	cachep = page->slab_cache;
 	if (slab_equal_or_root(cachep, s))
 		return cachep;
-
+	/* DSIABLED AS IT SCREAMS INTO DMESG
 	pr_err("%s: Wrong slab cache. %s but object is from %s\n",
-	       __func__, s->name, cachep->name);
+	       __func__, s->name, cachep->name); */
 	WARN_ON_ONCE(1);
 	return s;
 }
