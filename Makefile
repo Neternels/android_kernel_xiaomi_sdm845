@@ -1,7 +1,7 @@
 VERSION = 4
-PATCHLEVEL = 9
-SUBLEVEL = 239
-EXTRAVERSION =
+PATCHLEVEL = 10
+SUBLEVEL = 0
+EXTRAVERSION = -rc1
 NAME = Roaring Lionus
 
 # *DOCUMENTATION*
@@ -350,10 +350,10 @@ LDLLD		= ld.lld
 CPP		= $(CC) -E
 AR		= $(CROSS_COMPILE)ar
 NM		= $(CROSS_COMPILE)nm
-LLVMNM		= llvm-nm
+LLVMNM		= llvm-nm-11
 STRIP		= $(CROSS_COMPILE)strip
 OBJCOPY		= $(CROSS_COMPILE)objcopy
-LLVMOBJCOPY	= llvm-objcopy
+LLVMOBJCOPY	= llvm-objcopy-11
 OBJDUMP		= $(CROSS_COMPILE)objdump
 AWK		= awk
 DTC		= scripts/dtc/dtc

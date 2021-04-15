@@ -1,6 +1,6 @@
 #
 # Automatically generated file; DO NOT EDIT.
-# Linux/arm64 4.9.239 Kernel Configuration
+# Linux/arm64 4.10.0-rc1 Kernel Configuration
 #
 CONFIG_ARM64=y
 CONFIG_64BIT=y
@@ -724,8 +724,6 @@ CONFIG_XFRM_IPCOMP=y
 CONFIG_NET_KEY=y
 # CONFIG_NET_KEY_MIGRATE is not set
 CONFIG_INET=y
-CONFIG_WIREGUARD=y
-# CONFIG_WIREGUARD_DEBUG is not set
 CONFIG_IP_MULTICAST=y
 CONFIG_IP_ADVANCED_ROUTER=y
 # CONFIG_IP_FIB_TRIE_STATS is not set
@@ -4202,25 +4200,6 @@ CONFIG_USB_CONFIGFS_F_CCID=y
 CONFIG_USB_CONFIGFS_F_GSI=y
 CONFIG_USB_CONFIGFS_F_QDSS=y
 CONFIG_USB_CONFIGFS_F_IPC=y
-# CONFIG_USB_ZERO is not set
-# CONFIG_USB_AUDIO is not set
-# CONFIG_USB_ETH is not set
-# CONFIG_USB_G_NCM is not set
-# CONFIG_USB_GADGETFS is not set
-# CONFIG_USB_FUNCTIONFS is not set
-# CONFIG_USB_MASS_STORAGE is not set
-# CONFIG_USB_G_SERIAL is not set
-# CONFIG_USB_MIDI_GADGET is not set
-# CONFIG_USB_G_PRINTER is not set
-# CONFIG_USB_G_QTI is not set
-# CONFIG_USB_CDC_COMPOSITE is not set
-# CONFIG_USB_G_ACM_MS is not set
-# CONFIG_USB_G_MULTI is not set
-# CONFIG_USB_G_HID is not set
-# CONFIG_USB_G_DBGP is not set
-# CONFIG_USB_G_DBGP_PRINTK is not set
-# CONFIG_USB_G_DBGP_SERIAL is not set
-# CONFIG_USB_G_WEBCAM is not set
 # CONFIG_USB_LED_TRIG is not set
 # CONFIG_USB_ULPI_BUS is not set
 # CONFIG_UWB is not set
