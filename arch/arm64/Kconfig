@@ -267,8 +267,6 @@ config PGTABLE_LEVELS
 
 source "init/Kconfig"
 
-source "other/Kconfig"
-
 source "kernel/Kconfig.freezer"
 
 source "arch/arm64/Kconfig.platforms"
