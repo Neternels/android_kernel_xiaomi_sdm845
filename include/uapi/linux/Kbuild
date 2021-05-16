@@ -12,6 +12,7 @@ ifeq ($(wildcard $(srctree)/arch/$(SRCARCH)/include/uapi/asm/kvm_para.h),)
 no-export-headers += kvm_para.h
 endif
 
+header-y += aufs_type.h
 no-export-headers += auto_dev-ioctl.h
 no-export-headers += batman_adv.h
 no-export-headers += bcache.h
